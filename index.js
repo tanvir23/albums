@@ -1,12 +1,11 @@
 // import library
 import React from 'react';
-import { AppRegistry, Text } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
 // create component
 const App = () => (
-    <Text>
-        Hello World
-    </Text>
+    <Header headerText='Albums!' />
 );
    
 // render it to device
